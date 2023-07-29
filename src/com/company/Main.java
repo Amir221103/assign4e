@@ -3,7 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        MyGraph<Integer> myGraph = new MyGraph<>();
+        MyDirectedGraph<Integer> myGraph = new MyDirectedGraph<>();
+
 
         myGraph.addVertex(0);
         myGraph.addVertex(1);
